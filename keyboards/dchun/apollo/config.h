@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 150
 
 /* Select hand configuration */
-// #define USE_I2C
-#define SOFT_SERIAL_PIN D0
+#define USE_I2C
+// #define SOFT_SERIAL_PIN D0
 // #define EE_HANDS
 
 // #define SPLIT_USB_DETECT
@@ -49,12 +49,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Rows are doubled-up
 #define MATRIX_ROWS 10
 #define MATRIX_ROW_PINS { F7, F6, F5, F4, D3 }
-#define MATRIX_ROW_PINS_RIGHT { B6, B5, B4, D7, E6 }
+#define MATRIX_ROW_PINS_RIGHT { D7, B4, B5, B6, E6 }
 
 // wiring of each half
 #define MATRIX_COLS 7
 #define MATRIX_COL_PINS { C7, B4, D7, D6, D4, F1, F0 }
-#define MATRIX_COL_PINS_RIGHT { B0, D6, F1, F0, F4, F5, C6 }
+#define MATRIX_COL_PINS_RIGHT { B0, D6, F6, F5, F4, F1, F0 }
 
 #define DIODE_DIRECTION COL2ROW
 
